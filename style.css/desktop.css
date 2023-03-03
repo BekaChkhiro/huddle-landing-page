@@ -1,6 +1,6 @@
 @media screen and (min-width: 1440px) {
     body {
-        background: url(/images/bg-desktop.svg), #684BB1;
+        background: url(../images/bg-desktop.svg), #684BB1;
         background-size: 100%;
     }
 
