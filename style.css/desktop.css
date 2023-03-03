@@ -1,0 +1,96 @@
+@media screen and (min-width: 1440px) {
+    body {
+        background: url(/images/bg-desktop.svg), #684BB1;
+        background-size: 100%;
+    }
+
+    /* header */ 
+    
+    .header-div {
+        padding: 64px 1160px 0px 80px;
+        width: 200px;
+        margin: 0px auto;
+    }
+
+    .header-div img {
+        width: 200px;
+    }
+
+    /* main */
+
+    .main-div {
+        display: flex;
+        flex-direction: row;
+        width: 1275px;
+        margin: 0px auto;
+        padding: 104px 85px 27px 80px;
+    }
+
+    /* image div */
+
+    .image-div {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .illustration {
+        width: 696px;
+        height: 493px;
+    }
+
+    /* main content */
+
+    .main-content {
+        align-items: start;
+        padding: 32px 0px 156px 59px;
+        margin-top: 0px;
+    }
+
+    .main-content h1 {
+        width: 487px;
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 24px;
+        text-align: start;
+    }
+
+    .main-content p {
+        width: 520px;
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 24px;
+        text-align: start;
+    }
+
+    .register {
+        padding: 13px 63px 16px 64px;
+        font-size: 18px;
+        line-height: 27px;
+        border-radius: 28px;
+    }
+
+    .register:hover {
+        background-color: #E880E8;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+
+    /* footer */
+
+    .footer-div {
+        justify-content: end;
+        align-items: end;
+        width: 1280px;
+        padding: 0px 80px 40px 0px;
+        margin: auto;
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .icon:hover {
+        color: red;
+    }
+}
